@@ -36,5 +36,8 @@ public class RectangleTest {
     @Test
     @DisplayName("Area should equals to eight")
     void areaOfRectangleEqualsToEight(){assertEquals(8,rectangle.getArea());}
-    
+
+    @Test
+    @DisplayName(("Perimeter should equals to 12"))
+    void perimeterOfRectangleEqualsToTwelve(){assertEquals(12,rectangle.getPerimeter());}
 }
