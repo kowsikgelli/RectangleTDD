@@ -3,7 +3,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-public class RectangleAreaTest {
+public class RectangleTest {
     Rectangle rectangle;
 
     @BeforeEach
@@ -36,4 +36,5 @@ public class RectangleAreaTest {
     @Test
     @DisplayName("Area should equals to eight")
     void areaOfRectangleEqualsToEight(){assertEquals(8,rectangle.getArea());}
+    
 }
